@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Always install using the command npm install --legacy-peers-deps
+
 ## Available Scripts
 
 In the project directory, you can run:
