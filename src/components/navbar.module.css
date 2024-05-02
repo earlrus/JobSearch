@@ -1,0 +1,49 @@
+*{
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+ display: flex;
+ flex-direction: column;
+ gap: .5em; 
+ justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+    height: 100px;
+}
+
+
+.job_label{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: gray;
+    margin-top: 10px;
+}
+
+.options{
+   display: flex;
+   gap: 2em;
+}
+
+.job_items{
+    margin:20px 70px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+}
+
+.search{
+    cursor: pointer;
+}
+
+.search:hover{
+    color: rgb(131, 131, 193);
+}
